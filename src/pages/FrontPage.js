@@ -1,5 +1,4 @@
 import '../front-page.css';
-import Figure from 'react-bootstrap/Figure';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import { React } from 'react';

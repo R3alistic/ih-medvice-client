@@ -1,11 +1,10 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { signup } from "../api";
 import { toast } from "react-toastify";
 import "../signup.css";
 import { Button } from "react-bootstrap";
 import {
-  MDBBtn,
   MDBContainer,
   MDBRow,
   MDBCol,
@@ -56,7 +55,7 @@ function Signup() {
 
               <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign Up</p>
 
-              <br/>
+              <br />
 
               <form onSubmit={handleSubmitForm}>
                 <MDBInput
@@ -72,8 +71,8 @@ function Signup() {
                   type="password"
                   value={password}
                   onChange={handlePasswordChange} />
-                  <br />
-                <Button style={{color:"white"}} className="mb-3" variant="warning" size="lg">Register</Button>
+                <br />
+                <Button style={{ color: "white" }} className="mb-3" variant="warning" size="lg">Register</Button>
               </form>
 
             </MDBCol>
