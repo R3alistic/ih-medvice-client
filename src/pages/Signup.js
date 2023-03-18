@@ -72,7 +72,7 @@ function Signup() {
                   value={password}
                   onChange={handlePasswordChange} />
                 <br />
-                <Button style={{ color: "white" }} className="mb-3" variant="warning" size="lg">Register</Button>
+                <Button type="submit" style={{ color: "white" }} className="mb-3" variant="warning" size="lg">Register</Button>
               </form>
 
             </MDBCol>
