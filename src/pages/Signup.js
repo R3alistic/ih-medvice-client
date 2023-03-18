@@ -38,7 +38,7 @@ function Signup() {
         setEmail("");
       } else {
         toast.success("Thanks for creating an account with us ❤");
-        navigate("/medication");
+        navigate("/login");
       }
     } catch (e) {
       toast.error(`error ${e}`);
